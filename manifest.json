@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name"            : "Gmail GUI",
+  "short_name"      : "Gmail GUI",
+  "description"     : "A simple app to make accessing Gmail easier.",
+  "version"         : "0.0.1",
+  
+  "app": {
+    "background": {
+      "scripts": ["app/background.js"]
+    }
+  },
+
+  "permissions": [
+    "webview"
+  ],
+  
+  "icons": { 
+    "16" : "images/googlemail-16.png", 
+    "32" : "images/googlemail-32.png",
+    "64" : "images/googlemail-64.png",
+    "128": "images/googlemail-128.png"
+  }
+}
