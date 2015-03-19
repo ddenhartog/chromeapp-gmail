@@ -12,7 +12,10 @@
   },
 
   "permissions": [
-    "webview"
+    "webview",
+    "notifications"
+    "https://gmail.com/",
+    "https://*.google.com/",
   ],
   
   "icons": { 
