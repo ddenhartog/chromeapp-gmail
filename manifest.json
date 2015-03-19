@@ -1,9 +1,13 @@
 {
   "manifest_version": 2,
-  "name"            : "Gmail GUI",
-  "short_name"      : "Gmail GUI",
-  "description"     : "A simple app to make accessing Gmail easier.",
-  "version"         : "0.0.1",
+  "name"       : "Gmail GUI",
+  "short_name" : "Gmail GUI",
+  "description": "A simple app to make accessing Gmail easier.",
+  "author"     : "@bddenhartog",
+  "version"    : "1.0",
+
+  // Require chrome 25+
+  "minimum_chrome_version": "25",
   
   "app": {
     "background": {
@@ -13,9 +17,9 @@
 
   "permissions": [
     "webview",
-    "notifications"
+    "notifications",
     "https://gmail.com/",
-    "https://*.google.com/",
+    "https://*.google.com/"
   ],
   
   "icons": { 
